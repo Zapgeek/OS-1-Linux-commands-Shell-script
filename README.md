@@ -142,16 +142,20 @@ cat newfile | grep -i "hello"
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
+<img width="708" height="41" alt="image" src="https://github.com/user-attachments/assets/8dd54d94-5d97-4b3e-86d1-b15ae2b2ce7f" />
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
+<img width="730" height="429" alt="image" src="https://github.com/user-attachments/assets/2452b0bf-e881-4df3-b1e5-eb6ccd49b89a" />
 
 
 grep -w -n world newfile   
 ## OUTPUT
+
+<img width="710" height="62" alt="image" src="https://github.com/user-attachments/assets/985bd90b-33e3-44ae-9d06-060cd5bb36ce" />
 
 
 cat < newfile 
@@ -175,12 +179,14 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+<img width="707" height="41" alt="image" src="https://github.com/user-attachments/assets/dedd2c68-579f-40c8-aa2f-8521dece6974" />
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+ 
+ 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
